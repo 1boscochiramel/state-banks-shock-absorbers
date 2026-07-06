@@ -1,3 +1,6 @@
+<!-- Continuing this project (human or AI)? Read HANDOFF.md first — it has the full
+     project context, decisions, results, gotchas, and next steps, self-contained. -->
+
 # State Banks as Shock Absorbers? — replication package
 
 **Relationship lending, the cost of debt, and investment during India's 2026 energy shock.**
