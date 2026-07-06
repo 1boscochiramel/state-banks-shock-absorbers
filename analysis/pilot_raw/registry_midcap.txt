@@ -1,0 +1,377 @@
+# Mid-cap rating-rationale registry (batch 1+). Amount-weighted PSB share from
+# CRISIL "Details of Bank Lenders & Facilities" annexures. Amount in Rs crore.
+# PSB (amount) = sum(facility amt at PSB banks) / sum(all named-bank facility amt).
+SOURCE|BALRAMCHIN|CRISIL|2024-02-27|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/BalrampurChiniMillsLimited_February%2027,%202024_RR_337963.html
+FACILITY|BALRAMCHIN|HDFC Bank Limited|Cash Credit|575
+FACILITY|BALRAMCHIN|ICICI Bank Limited|Cash Credit|200
+FACILITY|BALRAMCHIN|Kotak Mahindra Bank Limited|Cash Credit|200
+FACILITY|BALRAMCHIN|State Bank of India|Cash Credit|1125
+FACILITY|BALRAMCHIN|ICICI Bank Limited|Long Term Loan|37.5
+FACILITY|BALRAMCHIN|HDFC Bank Limited|Long Term Loan|50.15
+FACILITY|BALRAMCHIN|State Bank of India|Term Loan|220
+FACILITY|BALRAMCHIN|HDFC Bank Limited|Term Loan|140
+BANKNAMES|BALRAMCHIN|yes
+SOURCE|EIDPARRY|CRISIL|2025-01-29|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/EIDParryIndiaLimited_January%2029_%202025_RR_361887.html
+FACILITY|EIDPARRY|State Bank of India|Bank Guarantee|100
+FACILITY|EIDPARRY|State Bank of India|Cash Credit|500
+FACILITY|EIDPARRY|State Bank of India|Letter of Credit|50
+FACILITY|EIDPARRY|HDFC Bank Limited|Long Term Loan|17.5
+FACILITY|EIDPARRY|Axis Bank Limited|Long Term Loan|126.7
+FACILITY|EIDPARRY|Axis Bank Limited|Long Term Loan|57.8
+FACILITY|EIDPARRY|Axis Bank Limited|Long Term Loan|92.5
+FACILITY|EIDPARRY|HDFC Bank Limited|Short Term Loan|130
+FACILITY|EIDPARRY|The Federal Bank Limited|Short Term Loan|100
+FACILITY|EIDPARRY|Union Bank of India|Working Capital Demand Loan|250
+BANKNAMES|EIDPARRY|yes
+SOURCE|KNRCON|CRISIL|2025-11-27|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/KNRConstructionsLimited_November%2027_%202025_RR_382419.html
+FACILITY|KNRCON|Axis Bank Limited|Fund-Based|20
+FACILITY|KNRCON|ICICI Bank Limited|Fund-Based|40
+FACILITY|KNRCON|RBL Bank Limited|Fund-Based|10
+FACILITY|KNRCON|IndusInd Bank Limited|Fund-Based|5
+FACILITY|KNRCON|The Federal Bank Limited|Fund-Based|10
+FACILITY|KNRCON|Punjab National Bank|Fund-Based|12
+FACILITY|KNRCON|Kotak Mahindra Bank Limited|Fund-Based|10
+FACILITY|KNRCON|HDFC Bank Limited|Fund-Based|10
+FACILITY|KNRCON|State Bank of India|Fund-Based|20
+FACILITY|KNRCON|IDBI Bank Limited|Fund-Based|8
+FACILITY|KNRCON|Punjab National Bank|Non-Fund Based|88
+FACILITY|KNRCON|State Bank of India|Non-Fund Based|410
+FACILITY|KNRCON|IDBI Bank Limited|Non-Fund Based|242
+FACILITY|KNRCON|ICICI Bank Limited|Non-Fund Based|205
+FACILITY|KNRCON|Axis Bank Limited|Non-Fund Based|220
+FACILITY|KNRCON|RBL Bank Limited|Non-Fund Based|240
+FACILITY|KNRCON|Kotak Mahindra Bank Limited|Non-Fund Based|90
+FACILITY|KNRCON|HDFC Bank Limited|Non-Fund Based|230
+FACILITY|KNRCON|The Federal Bank Limited|Non-Fund Based|240
+FACILITY|KNRCON|IndusInd Bank Limited|Non-Fund Based|235
+BANKNAMES|KNRCON|yes
+SOURCE|ASHOKA|CRISIL|2024-05-27|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/AshokaBuildconLimited_May%2027_%202024_RR_327983.html
+FACILITY|ASHOKA|Axis Bank Limited|Fund-Based|67
+FACILITY|ASHOKA|Bank of India|Fund-Based|60
+FACILITY|ASHOKA|Bank of Maharashtra|Fund-Based|18
+FACILITY|ASHOKA|HDFC Bank Limited|Fund-Based|7
+FACILITY|ASHOKA|Indian Bank|Fund-Based|11
+FACILITY|ASHOKA|Punjab and Sind Bank|Fund-Based|7
+FACILITY|ASHOKA|Aditya Birla Finance Limited|Fund-Based|75
+FACILITY|ASHOKA|Punjab National Bank|Fund-Based|14
+FACILITY|ASHOKA|State Bank of India|Fund-Based|63
+FACILITY|ASHOKA|Axis Bank Limited|Non-Fund Based|595
+FACILITY|ASHOKA|Bank of India|Non-Fund Based|270
+FACILITY|ASHOKA|Bank of Maharashtra|Non-Fund Based|508
+FACILITY|ASHOKA|Exim Bank|Non-Fund Based|280
+FACILITY|ASHOKA|HDFC Bank Limited|Non-Fund Based|133
+FACILITY|ASHOKA|IDFC FIRST Bank Limited|Non-Fund Based|315
+FACILITY|ASHOKA|Indian Bank|Non-Fund Based|340
+FACILITY|ASHOKA|IndusInd Bank Limited|Non-Fund Based|280
+FACILITY|ASHOKA|Punjab and Sind Bank|Non-Fund Based|133
+FACILITY|ASHOKA|Punjab National Bank|Non-Fund Based|161
+FACILITY|ASHOKA|State Bank of India|Non-Fund Based|567
+FACILITY|ASHOKA|YES Bank Limited|Non-Fund Based|347
+BANKNAMES|ASHOKA|yes
+SOURCE|GRINFRA|CRISIL|2024-05-24|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/GRInfraprojectsLimited_May%2024_%202024_RR_344209.html
+FACILITY|GRINFRA|Axis Bank Limited|Cash Credit|10
+FACILITY|GRINFRA|HDFC Bank Limited|Cash Credit|55
+FACILITY|GRINFRA|Union Bank of India|Cash Credit|25
+FACILITY|GRINFRA|Punjab National Bank|Cash Credit|25
+FACILITY|GRINFRA|State Bank of India|Cash Credit|35
+FACILITY|GRINFRA|ICICI Bank Limited|LC and BG|150
+FACILITY|GRINFRA|Standard Chartered Bank Limited|LC and BG|150
+FACILITY|GRINFRA|Axis Bank Limited|LC and BG|230
+FACILITY|GRINFRA|Punjab National Bank|LC and BG|75
+FACILITY|GRINFRA|State Bank of India|LC and BG|250
+FACILITY|GRINFRA|IDFC FIRST Bank Limited|LC and BG|235
+FACILITY|GRINFRA|Union Bank of India|LC and BG|250
+FACILITY|GRINFRA|IndusInd Bank Limited|LC and BG|160
+FACILITY|GRINFRA|YES Bank Limited|LC and BG|150
+FACILITY|GRINFRA|HDFC Bank Limited|LC and BG|250
+BANKNAMES|GRINFRA|yes
+SOURCE|IRB|CRISIL|2023-09-12|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/IRBInfrastructureDevelopersLimited_September%2012,%202023_RR_327729.html
+FACILITY|IRB|IDFC FIRST Bank Limited|Bank Guarantee|300
+FACILITY|IRB|Punjab National Bank|Bank Guarantee|196
+FACILITY|IRB|Bank of Baroda|Bank Guarantee|165
+FACILITY|IRB|Andhra Bank|Bank Guarantee|105
+FACILITY|IRB|Bank of India|Bank Guarantee|94
+FACILITY|IRB|Corporation Bank|Bank Guarantee|50
+FACILITY|IRB|Canara Bank|Bank Guarantee|290
+FACILITY|IRB|Andhra Bank|Long Term Loan|249.89
+FACILITY|IRB|Canara Bank|Long Term Loan|200
+FACILITY|IRB|Housing Development Finance Corporation Limited|Long Term Loan|410
+FACILITY|IRB|Canara Bank|Long Term Loan|500
+FACILITY|IRB|Union Bank of India|Long Term Loan|500
+BANKNAMES|IRB|yes
+SOURCE|SHYAMMETL|CRISIL|2025-11-05|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ShyamMetalicsandEnergyLimited_November%2005_%202025_RR_381110.html
+FACILITY|SHYAMMETL|YES Bank Limited|Capex LC|150
+FACILITY|SHYAMMETL|ICICI Bank Limited|Capex LC|50
+FACILITY|SHYAMMETL|Punjab National Bank|Capex LC|100
+FACILITY|SHYAMMETL|Indian Bank|Capex LC|50
+FACILITY|SHYAMMETL|Axis Bank Limited|Capex LC|75
+FACILITY|SHYAMMETL|Axis Bank Limited|Cash Credit|70
+FACILITY|SHYAMMETL|YES Bank Limited|Cash Credit|5
+FACILITY|SHYAMMETL|HDFC Bank Limited|Cash Credit|100
+FACILITY|SHYAMMETL|IDFC FIRST Bank Limited|Cash Credit|5
+FACILITY|SHYAMMETL|Indian Bank|Cash Credit|5
+FACILITY|SHYAMMETL|UCO Bank|Cash Credit|75
+FACILITY|SHYAMMETL|State Bank of India|Cash Credit|300
+FACILITY|SHYAMMETL|Punjab National Bank|Cash Credit|340
+FACILITY|SHYAMMETL|ICICI Bank Limited|Cash Credit|100
+FACILITY|SHYAMMETL|HDFC Bank Limited|LC and BG|295
+FACILITY|SHYAMMETL|Indian Bank|LC and BG|95
+FACILITY|SHYAMMETL|State Bank of India|LC and BG|50
+FACILITY|SHYAMMETL|YES Bank Limited|LC and BG|305
+FACILITY|SHYAMMETL|ICICI Bank Limited|LC and BG|315
+FACILITY|SHYAMMETL|State Bank of India|LC and BG|100
+FACILITY|SHYAMMETL|IDFC FIRST Bank Limited|LC and BG|115
+FACILITY|SHYAMMETL|Axis Bank Limited|LC and BG|390
+FACILITY|SHYAMMETL|Punjab National Bank|LC and BG|210
+FACILITY|SHYAMMETL|UCO Bank|LC and BG|125
+FACILITY|SHYAMMETL|HDFC Bank Limited|LC and BG|150
+BANKNAMES|SHYAMMETL|yes
+SOURCE|GPIL|CRISIL|2026-05-26|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/GodawariPowerandIspatLimited_May%2026_%202026_RR_393349.html
+FACILITY|GPIL|Axis Bank Limited|Bank Guarantee|15
+FACILITY|GPIL|IDBI Bank Limited|Bank Guarantee|70
+FACILITY|GPIL|State Bank of India|Bank Guarantee|110
+FACILITY|GPIL|ICICI Bank Limited|Bill Discounting|40
+FACILITY|GPIL|IDBI Bank Limited|Cash Credit|75
+FACILITY|GPIL|State Bank of India|Cash Credit|200
+FACILITY|GPIL|Axis Bank Limited|Cash Credit|75
+FACILITY|GPIL|State Bank of India|Letter of Credit|55
+FACILITY|GPIL|State Bank of India|Letter of Credit|167
+FACILITY|GPIL|ICICI Bank Limited|Letter of Credit|40
+FACILITY|GPIL|IDBI Bank Limited|Letter of Credit|103
+FACILITY|GPIL|Axis Bank Limited|Letter of Credit|205
+FACILITY|GPIL|Axis Bank Limited|LER Limits|15
+FACILITY|GPIL|State Bank of India|Term Loan|895
+FACILITY|GPIL|Axis Bank Limited|Term Loan|300
+BANKNAMES|GPIL|yes
+SOURCE|SARDAEN|CRISIL|2025-11-11|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/SardaEnergyandMineralsLimited_November%2011_%202025_RR_377620.html
+FACILITY|SARDAEN|RBL Bank Limited|Bank Guarantee|9
+FACILITY|SARDAEN|State Bank of India|Bank Guarantee|8
+FACILITY|SARDAEN|Axis Bank Limited|Bank Guarantee|12
+FACILITY|SARDAEN|YES Bank Limited|Bank Guarantee|49
+FACILITY|SARDAEN|Union Bank of India|Bank Guarantee|21
+FACILITY|SARDAEN|Bank of Baroda|Bank Guarantee|160
+FACILITY|SARDAEN|Bank of Baroda|Cash Credit|60.1
+FACILITY|SARDAEN|State Bank of India|Cash Credit|10
+FACILITY|SARDAEN|Axis Bank Limited|Cash Credit|28.05
+FACILITY|SARDAEN|RBL Bank Limited|Cash Credit|29.55
+FACILITY|SARDAEN|Union Bank of India|Cash Credit|63.72
+FACILITY|SARDAEN|RBL Bank Limited|Letter of Credit|67
+FACILITY|SARDAEN|Axis Bank Limited|Letter of Credit|77.65
+FACILITY|SARDAEN|State Bank of India|Letter of Credit|37
+FACILITY|SARDAEN|Union Bank of India|Letter of Credit|157.7
+FACILITY|SARDAEN|Bank of Baroda|Letter of Credit|104.55
+FACILITY|SARDAEN|Axis Bank Limited|Term Loan|16.75
+FACILITY|SARDAEN|Axis Bank Limited|Term Loan|238.79
+FACILITY|SARDAEN|HDFC Bank Limited|Term Loan|633.08
+FACILITY|SARDAEN|Axis Bank Limited|Term Loan|436.21
+FACILITY|SARDAEN|HDFC Bank Limited|Term Loan|66.92
+BANKNAMES|SARDAEN|yes
+SOURCE|RATNAMANI|CRISIL|2025-06-11|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/RatnamaniMetalsandTubesLimited_June%2011_%202025_RR_367310.html
+FACILITY|RATNAMANI|IDBI Bank Limited|Cash Credit|10
+FACILITY|RATNAMANI|Axis Bank Limited|Cash Credit|26
+FACILITY|RATNAMANI|ICICI Bank Limited|Cash Credit|53
+FACILITY|RATNAMANI|YES Bank Limited|Cash Credit|150
+FACILITY|RATNAMANI|HDFC Bank Limited|Cash Credit|60
+FACILITY|RATNAMANI|Citibank N.A.|LC and BG|213
+FACILITY|RATNAMANI|HDFC Bank Limited|LC and BG|240
+FACILITY|RATNAMANI|IDBI Bank Limited|LC and BG|125
+FACILITY|RATNAMANI|Kotak Mahindra Bank Limited|LC and BG|50
+FACILITY|RATNAMANI|IndusInd Bank Limited|LC and BG|100
+FACILITY|RATNAMANI|Axis Bank Limited|LC and BG|474
+FACILITY|RATNAMANI|ICICI Bank Limited|LC and BG|498
+FACILITY|RATNAMANI|YES Bank Limited|LC and BG|201
+BANKNAMES|RATNAMANI|yes
+SOURCE|APLAPOLLO|CRISIL|2025-09-30|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/APLApolloTubesLimited_September%2030_%202025_RR_376365.html
+FACILITY|APLAPOLLO|State Bank of India|Cash Credit|76
+FACILITY|APLAPOLLO|Union Bank of India|Cash Credit|250
+FACILITY|APLAPOLLO|State Bank of India|Letter of Credit|109
+FACILITY|APLAPOLLO|YES Bank Limited|Non-Fund Based|200
+FACILITY|APLAPOLLO|The South Indian Bank Limited|Vendor Financing|30
+FACILITY|APLAPOLLO|Axis Bank Limited|Working Capital Demand Loan|170
+FACILITY|APLAPOLLO|HDFC Bank Limited|Working Capital|125
+FACILITY|APLAPOLLO|Bank of Baroda|Working Capital|35
+FACILITY|APLAPOLLO|YES Bank Limited|Working Capital|100
+FACILITY|APLAPOLLO|The Hongkong and Shanghai Banking Corporation Limited|Working Capital|175
+BANKNAMES|APLAPOLLO|yes
+SOURCE|NCLIND|CRISIL|2023-07-04|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/NCLIndustriesLimited_July%2004,%202023_RR_319466.html
+FACILITY|NCLIND|HDFC Bank Limited|Cash Credit|25
+FACILITY|NCLIND|Kotak Mahindra Bank Limited|Cash Credit|20
+FACILITY|NCLIND|Axis Bank Limited|Cash Credit|50
+FACILITY|NCLIND|State Bank of India|Cash Credit|20
+FACILITY|NCLIND|Bank of Baroda|Cash Credit|65
+FACILITY|NCLIND|Bank of Baroda|LC and BG|10
+FACILITY|NCLIND|State Bank of India|LC and BG|25
+FACILITY|NCLIND|Axis Bank Limited|LC and BG|10
+FACILITY|NCLIND|HDFC Bank Limited|Term Loan|9.7
+FACILITY|NCLIND|Axis Bank Limited|Term Loan|31.7
+FACILITY|NCLIND|HDFC Bank Limited|Term Loan|15.2
+FACILITY|NCLIND|Axis Bank Limited|Term Loan|10.6
+FACILITY|NCLIND|Axis Bank Limited|Term Loan|54.4
+FACILITY|NCLIND|Axis Bank Limited|Term Loan|30.9
+FACILITY|NCLIND|Kotak Mahindra Bank Limited|Term Loan|75
+BANKNAMES|NCLIND|yes
+SOURCE|CHAMBLFERT|CRISIL|2025-04-24|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ChambalFertilisersandChemicalsLimited_April%2024_%202025_RR_367438.html
+FACILITY|CHAMBLFERT|The Federal Bank Limited|Cash Credit|600
+FACILITY|CHAMBLFERT|ICICI Bank Limited|Cash Credit|300
+FACILITY|CHAMBLFERT|Axis Bank Limited|Cash Credit|500
+FACILITY|CHAMBLFERT|HDFC Bank Limited|Cash Credit|600
+FACILITY|CHAMBLFERT|State Bank of India|Cash Credit|1000
+FACILITY|CHAMBLFERT|Bank of Baroda|Cash Credit|1000
+FACILITY|CHAMBLFERT|State Bank of India|LC and BG|500
+FACILITY|CHAMBLFERT|Bank of Baroda|LC and BG|500
+FACILITY|CHAMBLFERT|HDFC Bank Limited|LC and BG|300
+FACILITY|CHAMBLFERT|Axis Bank Limited|LC and BG|400
+FACILITY|CHAMBLFERT|The Federal Bank Limited|LC and BG|300
+FACILITY|CHAMBLFERT|HDFC Bank Limited|Non-Fund Based|600
+FACILITY|CHAMBLFERT|State Bank of India|Non-Fund Based|70
+FACILITY|CHAMBLFERT|State Bank of India|Non-Fund Based|1800
+FACILITY|CHAMBLFERT|The Federal Bank Limited|Non-Fund Based|250
+BANKNAMES|CHAMBLFERT|yes
+SOURCE|DEEPAKFERT|CRISIL|2025-09-26|https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/DeepakFertilisersAndPetrochemicalsCorporationLimited_September%2026_%202025_RR_377536.html
+FACILITY|DEEPAKFERT|Axis Bank Limited|Fund-Based|10
+FACILITY|DEEPAKFERT|HDFC Bank Limited|Fund-Based|50
+FACILITY|DEEPAKFERT|Kotak Mahindra Bank Limited|Fund-Based|5
+FACILITY|DEEPAKFERT|Bank of Baroda|Fund-Based|25
+FACILITY|DEEPAKFERT|State Bank of India|Fund-Based|55
+FACILITY|DEEPAKFERT|IDBI Bank Limited|Fund-Based|5
+FACILITY|DEEPAKFERT|HDFC Bank Limited|Non-Fund Based|150
+FACILITY|DEEPAKFERT|Kotak Mahindra Bank Limited|Non-Fund Based|45
+FACILITY|DEEPAKFERT|Standard Chartered Bank|Non-Fund Based|50
+FACILITY|DEEPAKFERT|IDBI Bank Limited|Non-Fund Based|195
+FACILITY|DEEPAKFERT|State Bank of India|Non-Fund Based|195
+FACILITY|DEEPAKFERT|Axis Bank Limited|Non-Fund Based|90
+FACILITY|DEEPAKFERT|Bank of Baroda|Non-Fund Based|250
+FACILITY|DEEPAKFERT|State Bank of India|Term Loan|500
+FACILITY|DEEPAKFERT|Exim Bank|Term Loan|200
+FACILITY|DEEPAKFERT|State Bank of India|Term Loan|100.51
+FACILITY|DEEPAKFERT|Exim Bank|Term Loan|124.38
+FACILITY|DEEPAKFERT|Bank of Baroda|Term Loan|104.5
+BANKNAMES|DEEPAKFERT|yes
+SOURCE|SESHAPAPER|CRISIL|2025-04-09|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/SeshasayeePaperandBoardsLimited_April%2009_%202025_RR_361525.html
+FACILITY|SESHAPAPER|State Bank of India|Cash Credit|108
+FACILITY|SESHAPAPER|Kotak Mahindra Bank Limited|Cash Credit|40
+FACILITY|SESHAPAPER|HDFC Bank Limited|Cash Credit|50
+FACILITY|SESHAPAPER|State Bank of India|Cash Credit|42
+FACILITY|SESHAPAPER|State Bank of India|Letter of Credit|25
+FACILITY|SESHAPAPER|State Bank of India|Letter of Credit|25
+BANKNAMES|SESHAPAPER|yes
+SOURCE|MUKANDLTD|CRISIL|2024-08-16|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MukandLimited_August%2016_%202024_RR_346252.html
+FACILITY|MUKANDLTD|Citi Bank|Bank Guarantee|184.9
+FACILITY|MUKANDLTD|Citi Bank|Cash Credit|0.1
+FACILITY|MUKANDLTD|Citi Bank|Term Loan|200
+FACILITY|MUKANDLTD|Citi Bank|Working Capital Term Loan|1200
+BANKNAMES|MUKANDLTD|yes
+SOURCE|WELCORP|CRISIL|2024-02-13|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/WelspunCorpLimited_February%2013,%202024_RR_329599.html
+FACILITY|WELCORP|Bank of Baroda|Bank Guarantee|225
+FACILITY|WELCORP|State Bank of India|Bank Guarantee|104
+FACILITY|WELCORP|State Bank of India|Cash Credit|20
+FACILITY|WELCORP|Axis Bank Limited|Cash Credit|20
+FACILITY|WELCORP|ICICI Bank Limited|Cash Credit|50
+FACILITY|WELCORP|HDFC Bank Limited|Cash Credit and WCDL|200
+FACILITY|WELCORP|Axis Bank Limited|Letter of Credit|380
+FACILITY|WELCORP|Bank of Baroda|Letter of Credit|350
+FACILITY|WELCORP|IDFC FIRST Bank Limited|Letter of Credit|340
+FACILITY|WELCORP|YES Bank Limited|Letter of Credit|450
+FACILITY|WELCORP|State Bank of India|Letter of Credit|600
+FACILITY|WELCORP|Bank of India|Letter of Credit|300
+FACILITY|WELCORP|ICICI Bank Limited|Letter of Credit|350
+FACILITY|WELCORP|IDBI Bank Limited|Letter of Credit|420
+BANKNAMES|WELCORP|yes
+SOURCE|DBL|CRISIL|2024-04-19|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/DilipBuildconLimited_April%2019_%202024_RR_341064.html
+FACILITY|DBL|Bank of Maharashtra|Cash Credit|45
+FACILITY|DBL|Indian Overseas Bank|Cash Credit|78.3
+FACILITY|DBL|Bank of India|Cash Credit|110
+FACILITY|DBL|Indian Bank|Cash Credit|95
+FACILITY|DBL|Union Bank of India|Cash Credit|146
+FACILITY|DBL|IDBI Bank Limited|Cash Credit|200
+FACILITY|DBL|Bank of Baroda|Cash Credit|425
+FACILITY|DBL|The Karnataka Bank Limited|Cash Credit|44
+FACILITY|DBL|Canara Bank|Cash Credit|325
+FACILITY|DBL|Punjab and Sind Bank|Cash Credit|25
+FACILITY|DBL|UCO Bank|Cash Credit|87.5
+FACILITY|DBL|State Bank of India|Cash Credit|120
+FACILITY|DBL|The Jammu and Kashmir Bank Limited|Cash Credit|25
+FACILITY|DBL|Central Bank Of India|Cash Credit|125
+FACILITY|DBL|Punjab National Bank|Cash Credit|484
+FACILITY|DBL|Indian Bank|Non-Fund Based|340
+FACILITY|DBL|Export Import Bank of India|Non-Fund Based|200
+FACILITY|DBL|State Bank of India|Non-Fund Based|335
+FACILITY|DBL|The Jammu and Kashmir Bank Limited|Non-Fund Based|25
+FACILITY|DBL|Central Bank Of India|Non-Fund Based|214
+FACILITY|DBL|Bank of Maharashtra|Non-Fund Based|205
+FACILITY|DBL|Bank of India|Non-Fund Based|222
+FACILITY|DBL|Indian Overseas Bank|Non-Fund Based|211.75
+FACILITY|DBL|Punjab and Sind Bank|Non-Fund Based|85
+FACILITY|DBL|IDBI Bank Limited|Non-Fund Based|475
+FACILITY|DBL|Bank of Baroda|Non-Fund Based|890
+FACILITY|DBL|Punjab National Bank|Non-Fund Based|1912.5
+FACILITY|DBL|UCO Bank|Non-Fund Based|248.95
+FACILITY|DBL|Union Bank of India|Non-Fund Based|733
+FACILITY|DBL|Canara Bank|Non-Fund Based|1155
+FACILITY|DBL|The Karnataka Bank Limited|Non-Fund Based|56
+FACILITY|DBL|Bank of Baroda|Term Loan|0.65
+FACILITY|DBL|Union Bank of India|Term Loan|0.09
+FACILITY|DBL|Punjab and Sind Bank|Term Loan|0.03
+FACILITY|DBL|Bank of Maharashtra|Term Loan|0.81
+BANKNAMES|DBL|yes
+SOURCE|LTFOODS|CRISIL|2024-04-30|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/LTFoodsLimited_April%2030_%202024_RR_341602.html
+FACILITY|LTFOODS|The Federal Bank Limited|LC and BG|50
+FACILITY|LTFOODS|IndusInd Bank Limited|LC and BG|45
+FACILITY|LTFOODS|Kotak Mahindra Bank Limited|LC and BG|23
+FACILITY|LTFOODS|State Bank of India|LC and BG|6
+FACILITY|LTFOODS|HDFC Bank Limited|LC and BG|5
+FACILITY|LTFOODS|Punjab National Bank|LC and BG|21
+FACILITY|LTFOODS|ICICI Bank Limited|LC and BG|15.1
+FACILITY|LTFOODS|CTBC Bank Co Limited|LC and BG|7
+FACILITY|LTFOODS|Union Bank of India|Working Capital|80
+FACILITY|LTFOODS|Punjab National Bank|Working Capital|172
+FACILITY|LTFOODS|ICICI Bank Limited|Working Capital|72.5
+FACILITY|LTFOODS|HDFC Bank Limited|Working Capital|25.5
+FACILITY|LTFOODS|CTBC Bank Co Limited|Working Capital|37
+FACILITY|LTFOODS|Doha Bank|Working Capital|50
+FACILITY|LTFOODS|The Federal Bank Limited|Working Capital|20
+FACILITY|LTFOODS|State Bank of India|Working Capital|84
+FACILITY|LTFOODS|Kotak Mahindra Bank Limited|Working Capital|40
+FACILITY|LTFOODS|Qatar National Bank (Q.P.S.C.)|Working Capital|40
+FACILITY|LTFOODS|IndusInd Bank Limited|Working Capital|77
+BANKNAMES|LTFOODS|yes
+SOURCE|GOKULAGRO|CRISIL|2024-10-30|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/GokulAgroResourcesLimited_October%2030_%202024_RR_355984.html
+FACILITY|GOKULAGRO|State Bank of India|Bank Guarantee|5
+FACILITY|GOKULAGRO|Central Bank Of India|Bank Guarantee|2
+FACILITY|GOKULAGRO|IndusInd Bank Limited|Bank Guarantee|18
+FACILITY|GOKULAGRO|IndusInd Bank Limited|Credit Exposure Limits|5
+FACILITY|GOKULAGRO|The Jammu and Kashmir Bank Limited|Credit Exposure Limits|3.02
+FACILITY|GOKULAGRO|Bank of India|Credit Exposure Limits|0.7
+FACILITY|GOKULAGRO|Axis Bank Limited|Credit Exposure Limits|3
+FACILITY|GOKULAGRO|State Bank of India|Credit Exposure Limits|13.4
+FACILITY|GOKULAGRO|Bank of Baroda|Credit Exposure Limits|10.38
+FACILITY|GOKULAGRO|Central Bank Of India|Credit Exposure Limits|5
+FACILITY|GOKULAGRO|DBS Bank Limited|Credit Exposure Limits|8.5
+FACILITY|GOKULAGRO|YES Bank Limited|Credit Exposure Limits|1
+FACILITY|GOKULAGRO|IDFC FIRST Bank Limited|Export Packing Credit|5
+FACILITY|GOKULAGRO|Axis Bank Limited|Export Packing Credit|15
+FACILITY|GOKULAGRO|The Jammu and Kashmir Bank Limited|Export Packing Credit|26
+FACILITY|GOKULAGRO|Bank of India|Export Packing Credit|3
+FACILITY|GOKULAGRO|State Bank of India|Export Packing Credit|50.25
+FACILITY|GOKULAGRO|Bank of Baroda|Export Packing Credit|50
+FACILITY|GOKULAGRO|Central Bank Of India|Export Packing Credit|35.75
+FACILITY|GOKULAGRO|IndusInd Bank Limited|Export Packing Credit|15
+FACILITY|GOKULAGRO|The Jammu and Kashmir Bank Limited|Letter of Credit|69.25
+FACILITY|GOKULAGRO|Bank of Baroda|Letter of Credit|290
+FACILITY|GOKULAGRO|State Bank of India|Letter of Credit|302.5
+FACILITY|GOKULAGRO|Central Bank Of India|Letter of Credit|249.25
+FACILITY|GOKULAGRO|DBS Bank Limited|Letter of Credit|170
+FACILITY|GOKULAGRO|Bank of India|Letter of Credit|80
+FACILITY|GOKULAGRO|YES Bank Limited|Letter of Credit|55
+FACILITY|GOKULAGRO|IndusInd Bank Limited|Letter of Credit|67
+FACILITY|GOKULAGRO|IDFC FIRST Bank Limited|Letter of Credit|95
+FACILITY|GOKULAGRO|Axis Bank Limited|Letter of Credit|82
+FACILITY|GOKULAGRO|IndusInd Bank Limited|Long Term Loan|12.6
+FACILITY|GOKULAGRO|ICICI Bank Limited|Long Term Loan|24.23
+FACILITY|GOKULAGRO|Central Bank Of India|Long Term Loan|160
+FACILITY|GOKULAGRO|Bandhan Bank Limited|Long Term Loan|15.89
+FACILITY|GOKULAGRO|State Bank of India|Long Term Loan|109.2
+FACILITY|GOKULAGRO|Bank of Baroda|Long Term Loan|8.13
+FACILITY|GOKULAGRO|The Jammu and Kashmir Bank Limited|Long Term Loan|12.83
+FACILITY|GOKULAGRO|Bank of India|Long Term Loan|0.7
+BANKNAMES|GOKULAGRO|yes

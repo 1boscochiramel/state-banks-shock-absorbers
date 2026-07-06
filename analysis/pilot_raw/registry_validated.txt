@@ -1,0 +1,61 @@
+# Rating-rationale registry — VALIDATION batch (6 firms), transcribed from public
+# credit-rating rationales. Amount in Rs crore. NA = shown without a bank name.
+# Finding: CRISIL rationales carry a "Details of Bank Lenders & Facilities" annexure
+# naming individual banks + amounts; CARE/ICRA rationales list facility TYPE + amount
+# only (bank-wise split behind a separate "click here" link). ~50% named-bank hit rate.
+# SRF/ASIANPAINT/SUNPHARMA verified from source (ASIANPAINT re-verified via direct fetch).
+SOURCE|SRF|CRISIL|2025-05-21|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/SRFLimited_May%2021_%202025_RR_367447.html
+FACILITY|SRF|State Bank of India|External Commercial Borrowings|145
+FACILITY|SRF|YES Bank Limited|Working Capital Facility|50
+FACILITY|SRF|Sumitomo Mitsui Banking Corporation|Working Capital Facility|225
+FACILITY|SRF|Standard Chartered Bank|Working Capital Facility|580
+FACILITY|SRF|NA|Commercial Paper|800
+BANKNAMES|SRF|yes
+SOURCE|ASIANPAINT|CRISIL|2024-09-10|https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/AsianPaintsLimited_September%2010_%202024_RR_352646.html
+FACILITY|ASIANPAINT|State Bank of India|Bank Guarantee|68
+FACILITY|ASIANPAINT|ICICI Bank Limited|Bank Guarantee|150
+FACILITY|ASIANPAINT|HDFC Bank Limited|Bank Guarantee|65
+FACILITY|ASIANPAINT|HDFC Bank Limited|Bill Discounting|124.99
+FACILITY|ASIANPAINT|Bank of America N.A.|Bill Discounting|25
+FACILITY|ASIANPAINT|State Bank of India|Bill Discounting|210
+FACILITY|ASIANPAINT|Bank of America N.A.|Bill Purchase-Discounting Facility|165.1
+FACILITY|ASIANPAINT|Citi Bank|Bill Purchase-Discounting Facility|212
+FACILITY|ASIANPAINT|The Hongkong and Shanghai Banking Corporation Limited|Bill Purchase-Discounting Facility|160
+FACILITY|ASIANPAINT|The Hongkong and Shanghai Banking Corporation Limited|Cash Credit and Working Capital Demand Loan|2
+FACILITY|ASIANPAINT|Standard Chartered Bank Limited|Cash Credit and Working Capital Demand Loan|5
+FACILITY|ASIANPAINT|State Bank of India|Cash Credit and Working Capital Demand Loan|15
+FACILITY|ASIANPAINT|HDFC Bank Limited|Cash Credit and Working Capital Demand Loan|50
+FACILITY|ASIANPAINT|Bank of America N.A.|Cash Credit and Working Capital Demand Loan|10
+FACILITY|ASIANPAINT|The Hongkong and Shanghai Banking Corporation Limited|Cash Management Service|10
+FACILITY|ASIANPAINT|Standard Chartered Bank Limited|Letter of Credit|120
+FACILITY|ASIANPAINT|HDFC Bank Limited|Letter of Credit|14.58
+FACILITY|ASIANPAINT|ICICI Bank Limited|Overdraft Facility|2
+FACILITY|ASIANPAINT|ICICI Bank Limited|Overdraft Facility|3
+FACILITY|ASIANPAINT|Bank of America N.A.|Standby Letter of Credit|0.21
+BANKNAMES|ASIANPAINT|yes
+SOURCE|SUNPHARMA|CRISIL|2025-03-18|https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/SunPharmaceuticalIndustriesLimited_March%2018_%202025_RR_364878.html
+FACILITY|SUNPHARMA|Standard Chartered Bank|Bank Guarantee|15
+FACILITY|SUNPHARMA|Citibank N.A.|Cash Credit|15
+FACILITY|SUNPHARMA|Standard Chartered Bank|Cash Credit|12
+FACILITY|SUNPHARMA|ICICI Bank Limited|Cash Credit|15
+FACILITY|SUNPHARMA|Citibank N.A.|Letter of Credit|3
+FACILITY|SUNPHARMA|The Hongkong and Shanghai Banking Corporation Limited|Letter of Credit|50
+FACILITY|SUNPHARMA|ICICI Bank Limited|Letter of Credit|7.5
+FACILITY|SUNPHARMA|NA|Commercial Paper|4000
+BANKNAMES|SUNPHARMA|yes
+SOURCE|JSWSTEEL|CARE|2025-07-08|https://www.careratings.com/upload/CompanyFiles/PR/202507140715_JSW_Steel_Limited.pdf
+FACILITY|JSWSTEEL|NA|Fund-based LT-Cash Credit|5048
+FACILITY|JSWSTEEL|NA|Fund-based LT-Term Loan|98
+FACILITY|JSWSTEEL|NA|Fund-based/Non-fund-based LT/ST|13061
+FACILITY|JSWSTEEL|NA|Non-fund-based ST-BG/LC|33611
+FACILITY|JSWSTEEL|NA|Term Loan-Long Term|30356
+BANKNAMES|JSWSTEEL|no
+SOURCE|JKCEMENT|CARE|2024-10-10|https://www.careratings.com/upload/CompanyFiles/PR/202410141057_J.K._Cement_Limited.pdf
+FACILITY|JKCEMENT|NA|Fund-based LT-Cash Credit|800
+FACILITY|JKCEMENT|NA|Fund-based LT-Term Loan|4903
+FACILITY|JKCEMENT|NA|Non-fund-based LT/ST-Bank Guarantee|150
+FACILITY|JKCEMENT|NA|Non-fund-based ST-BG/LC|1500
+BANKNAMES|JKCEMENT|no
+SOURCE|TATASTEEL|CARE|2025-06-30|https://www.careratings.com/upload/CompanyFiles/PR/202506120617_Tata_Steel_Limited.pdf
+FACILITY|TATASTEEL|NA|Long Term Bank Facilities|13665
+BANKNAMES|TATASTEEL|no
