@@ -32,8 +32,8 @@ the identification design is available at
 All errors are our own. \textbf{Working paper: a pre-specified research design with a
 public-data pilot study.} The pilot results in Section~\ref{sec:results} are estimated
 entirely from public disclosures and inference is reported both cluster-robust and by exact
-permutation test; the full-study tables remain pre-specified skeletons pending access to the
-CMIE Prowess universe and are explicitly marked as such.}}
+permutation test; the full-study tables remain pre-specified shells, collected in
+Appendix~B pending access to the CMIE Prowess universe and explicitly marked as such.}}
 
 \author{Ann Mary Raphael\thanks{MSc in Finance candidate, NUS Business School, National
 University of Singapore. E-mail: \texttt{annmaryraphael5@gmail.com}.}
@@ -287,7 +287,7 @@ bank credit as of end-March 2025 (RBI Basic Statistical Returns, SBI Research co
 with private and foreign banks holding most of the remainder. Relationships with state banks are
 pervasive among Indian firms --- \citet{srinivasan2017} document their central role in
 Indian corporate banking --- and the realized split of pre-shock banking relationships in
-our sample is an empirical quantity reported in Table~\ref{tab:desc}; the design requires
+our sample is an empirical quantity reported in Table~\ref{tab:p-desc}; the design requires
 substantial representation on both sides of the split, not balance.
 
 Two features of the 2025--26 policy environment matter for identification and are
@@ -432,39 +432,13 @@ FY2024--FY2025 \citep{caballero2008}.
 
 \subsection{Descriptive statistics}
 
-Table~\ref{tab:desc} reports sample composition and pre-shock balance across the two
-banking clienteles. Consistent with the selection concerns of Section~\ref{sec:threats},
-we do not expect the clienteles to be balanced in levels --- PSB-attached firms are
-anticipated to be older, more capital-intensive, and more levered --- and the design does
-not require them to be; it requires stable differences, which the event studies test.
-
-\begin{table}[t]
-\centering
-\begin{threeparttable}
-\caption{Descriptive statistics by pre-shock banking clientele}
-\label{tab:desc}
-\small
-\begin{tabular}{lcccccc}
-\toprule
-& \multicolumn{2}{c}{PSB-attached} & \multicolumn{2}{c}{Private-bank} & & \\
-\cmidrule(lr){2-3}\cmidrule(lr){4-5}
-Variable & Mean & SD & Mean & SD & Diff. & $t$ \\
-\midrule
-Cost of debt (\%)            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Capex / assets (\%)          & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Energy exposure (\%)         & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-log(total assets)            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Leverage                     & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Interest coverage $<1$ (\%)  & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Number of bankers            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
-Firms                        & \tbd &      & \tbd &      &      &      \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}\footnotesize
-\item \TBDNOTE
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
+The pre-specified layout of the full study's descriptive-statistics table is
+Table~\ref{tab:desc} in Appendix~B; its estimated pilot counterpart is
+Table~\ref{tab:p-desc}. Consistent with the selection concerns of
+Section~\ref{sec:threats}, we do not expect the clienteles to be balanced in levels ---
+PSB-attached firms are anticipated to be older, more capital-intensive, and more levered
+--- and the design does not require them to be; it requires stable differences, which the
+event studies test.
 
 %=====================================================================
 \section{Empirical Strategy}\label{sec:strategy}
@@ -571,13 +545,14 @@ should fade as the shock does.
 This section reports results in two parts. Section~\ref{sec:pilot} presents a \emph{pilot
 study} estimated on a hand-collected sample drawn entirely from public disclosures ---
 firm financials from stock-exchange filings (accessed via screener.in) and banker
-identities transcribed verbatim from company annual reports. Sections~\ref{sec:full-cod}
-onward present the \emph{pre-specified skeletons} for the full study on the complete CMIE
-Prowess universe, whose cells remain placeholders (``$\cdot$'') pending data access; their
-structure is frozen before estimation to discipline specification search. The pilot is a
-proof of concept and a first, deliberately conservative test of H1--H2; it is not the
-paper's final evidence, and its limitations (Section~\ref{sec:pilot-caveats}) are severe
-enough that no cell below should be over-read.
+identities transcribed verbatim from company annual reports and CRISIL rating rationales.
+Section~\ref{sec:full-cod} then summarizes the \emph{pre-specified full study} on the
+complete CMIE Prowess universe; its table shells --- whose structure is frozen before
+estimation to discipline specification search, and whose cells are marked ``$\cdot$''
+pending data access --- are collected in Appendix~B. The pilot is a proof of concept and a
+first, deliberately conservative test of H1--H2; it is not the paper's final evidence, and
+its limitations (Section~\ref{sec:pilot-caveats}) are severe enough that no cell below
+should be over-read.
 
 \subsection{Pilot evidence on public data}\label{sec:pilot}
 
@@ -849,138 +824,23 @@ among energy-exposed firms.
 \end{threeparttable}
 \end{table}
 
-\subsection{Full study --- the cost of debt (H1)}\label{sec:full-cod}
+\subsection{The pre-specified full study}\label{sec:full-cod}
 
-Table~\ref{tab:cod} reports estimates of equation~\eqref{eq:did} for the cost of debt,
-adding controls and tightening fixed effects across columns.
-
-\begin{table}[t]
-\centering
-\begin{threeparttable}
-\caption{State-bank attachment and the cost of debt around the 2025--26 shock}
-\label{tab:cod}
-\small
-\begin{tabular}{lcccc}
-\toprule
-Dep.\ var.: Cost of debt (\%) & (1) & (2) & (3) & (4) \\
-\midrule
-PSB $\times$ Post                    & \tbd & \tbd & \tbd & \tbd \\
-                                     & \tbd & \tbd & \tbd & \tbd \\
-Controls                             &      & \checkmark & \checkmark & \checkmark \\
-Firm FE                              & \checkmark & \checkmark & \checkmark & \checkmark \\
-Quarter FE                           & \checkmark & \checkmark &  &  \\
-Industry $\times$ quarter FE         &      &      & \checkmark & \checkmark \\
-Sample                               & Full & Full & Full & Multi-bank \\
-Observations                         & \tbd & \tbd & \tbd & \tbd \\
-$R^2$                                & \tbd & \tbd & \tbd & \tbd \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}\footnotesize
-\item \TBDNOTE\ Standard errors clustered by firm in parentheses.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
-
-\subsection{Full study --- investment (H2)}
-
-Table~\ref{tab:capex} repeats the design for the capex ratio; an event-study figure
-estimated from equation~\eqref{eq:es} will accompany it, plotting the quarterly
-coefficients for both outcomes.
-
-\begin{table}[t]
-\centering
-\begin{threeparttable}
-\caption{State-bank attachment and capital expenditure around the 2025--26 shock}
-\label{tab:capex}
-\small
-\begin{tabular}{lcccc}
-\toprule
-Dep.\ var.: Capex / lagged assets (\%) & (1) & (2) & (3) & (4) \\
-\midrule
-PSB $\times$ Post                    & \tbd & \tbd & \tbd & \tbd \\
-                                     & \tbd & \tbd & \tbd & \tbd \\
-Controls                             &      & \checkmark & \checkmark & \checkmark \\
-Firm FE                              & \checkmark & \checkmark & \checkmark & \checkmark \\
-Quarter FE                           & \checkmark & \checkmark &  &  \\
-Industry $\times$ quarter FE         &      &      & \checkmark & \checkmark \\
-Sample                               & Full & Full & Full & Multi-bank \\
-Observations                         & \tbd & \tbd & \tbd & \tbd \\
-$R^2$                                & \tbd & \tbd & \tbd & \tbd \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}\footnotesize
-\item \TBDNOTE\ Standard errors clustered by firm in parentheses.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
-
-\subsection{Full study --- targeting (H3)}
-
-Table~\ref{tab:ddd} reports the triple difference~\eqref{eq:ddd} and constraint splits.
-
-\begin{table}[t]
-\centering
-\begin{threeparttable}
-\caption{Triple difference: exposure gradients and constraint heterogeneity}
-\label{tab:ddd}
-\small
-\begin{tabular}{lcccc}
-\toprule
-& \multicolumn{2}{c}{Cost of debt} & \multicolumn{2}{c}{Capex ratio} \\
-\cmidrule(lr){2-3}\cmidrule(lr){4-5}
-& (1) & (2) & (3) & (4) \\
-\midrule
-PSB $\times$ Post                                  & \tbd & \tbd & \tbd & \tbd \\
-PSB $\times$ Post $\times$ Exposure                & \tbd & \tbd & \tbd & \tbd \\
-Post $\times$ Exposure                             & \tbd & \tbd & \tbd & \tbd \\
-Constraint split                                   & None & High EFD & None & Small \\
-Firm, industry $\times$ quarter FE, controls       & \checkmark & \checkmark & \checkmark & \checkmark \\
-Observations                                       & \tbd & \tbd & \tbd & \tbd \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}\footnotesize
-\item \TBDNOTE\ EFD: external finance dependence \citep{rajan1998}.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
-
-\subsection{Full study --- allocation (H4)}
-
-Table~\ref{tab:zombie} splits the sample by pre-shock interest coverage and reports the
-sensitivity tests of Section~\ref{sec:strategy}.
-
-\begin{table}[t]
-\centering
-\begin{threeparttable}
-\caption{Who receives the cushion? Interest-coverage splits and efficiency tests}
-\label{tab:zombie}
-\small
-\begin{tabular}{lcccc}
-\toprule
-& \multicolumn{2}{c}{Cost of debt} & Borrowing growth & Inv.--CF sens. \\
-\cmidrule(lr){2-3}
-& ICR $\geq 1$ & ICR $<1$ & ICR $<1$ share & $\Delta$ post \\
-\midrule
-PSB $\times$ Post              & \tbd & \tbd & \tbd & \tbd \\
-                               & \tbd & \tbd & \tbd & \tbd \\
-Observations                   & \tbd & \tbd & \tbd & \tbd \\
-\bottomrule
-\end{tabular}
-\begin{tablenotes}\footnotesize
-\item \TBDNOTE\ Column (3): share of post-shock PSB-client borrowing growth accruing to
-pre-shock ICR $<1$ firms. Column (4): change in investment--cash-flow sensitivity
-\citep{fazzari1988} for PSB-attached firms post-shock.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
-
-\subsection{Planned robustness}
-
-Frozen alongside the main tables: (i) continuous PSB share and main-banker treatments;
-(ii) entropy-balanced and matched samples on pre-shock observables; (iii) placebo shocks
-at FY2024Q3 and FY2025Q3; (iv) exclusion of exporters (tariff channel) and of any firm
-receiving scheme-specific support; (v) annual-frequency replication; (vi) two-way and
-banker-level clustering; (vii) import-intensity as the alternative exposure margin.
+The full CMIE Prowess study is pre-specified in its entirety, and its frozen table shells
+are collected in Appendix~B: descriptive balance across clienteles
+(Table~\ref{tab:desc}), the cost-of-debt and capex difference-in-differences of
+equation~\eqref{eq:did} with controls and industry$\times$quarter fixed effects added
+across columns and a multi-bank subsample (Tables~\ref{tab:cod}--\ref{tab:capex}), the
+triple difference of equation~\eqref{eq:ddd} with external-finance-dependence and size
+splits (Table~\ref{tab:ddd}), and the H4 allocation tests --- interest-coverage splits,
+the composition of post-shock borrowing growth, and investment--cash-flow sensitivity
+(Table~\ref{tab:zombie}). Frozen alongside them is the robustness set: (i) continuous PSB
+share and main-banker treatments; (ii) entropy-balanced and matched samples on pre-shock
+observables; (iii) placebo shocks at FY2024Q3 and FY2025Q3; (iv) exclusion of exporters
+(tariff channel) and of any firm receiving scheme-specific support; (v) annual-frequency
+replication; (vi) two-way and banker-level clustering; (vii) import-intensity as the
+alternative exposure margin. Every cell in Appendix~B is marked ``$\cdot$'' and awaits
+estimation; committing the shells before the data disciplines specification search.
 
 %=====================================================================
 \section{Conclusion}\label{sec:conclusion}
@@ -1043,5 +903,149 @@ for VLCC rates, war-risk premia, Brent monthly averages, and the INR/USD path; G
 of India press releases for the ATF price-stabilization fund and Export Promotion Mission;
 Reserve Bank of India for the policy-rate path and banking aggregates. A dated source list
 is maintained in the replication package.
+
+\newpage
+\section*{Appendix B: Pre-specified table shells for the full study}
+\addcontentsline{toc}{section}{Appendix B}
+\setcounter{table}{0}
+\renewcommand{\thetable}{B\arabic{table}}
+
+\emph{The tables below are the frozen shells of the full CMIE Prowess study summarized in
+Section~\ref{sec:full-cod}. Every entry marked ``$\cdot$'' awaits estimation; no figure in
+this appendix is a result. The structure is committed before the data to discipline
+specification search; any post-hoc addition will be reported as such.}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\caption{Descriptive statistics by pre-shock banking clientele (full study)}
+\label{tab:desc}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{2}{c}{PSB-attached} & \multicolumn{2}{c}{Private-bank} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Variable & Mean & SD & Mean & SD & Diff. & $t$ \\
+\midrule
+Cost of debt (\%)            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Capex / assets (\%)          & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Energy exposure (\%)         & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+log(total assets)            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Leverage                     & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Interest coverage $<1$ (\%)  & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Number of bankers            & \tbd & \tbd & \tbd & \tbd & \tbd & \tbd \\
+Firms                        & \tbd &      & \tbd &      &      &      \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \TBDNOTE
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\caption{State-bank attachment and the cost of debt (full study)}
+\label{tab:cod}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Dep.\ var.: Cost of debt (\%) & (1) & (2) & (3) & (4) \\
+\midrule
+PSB $\times$ Post                    & \tbd & \tbd & \tbd & \tbd \\
+                                     & \tbd & \tbd & \tbd & \tbd \\
+Controls                             &      & \checkmark & \checkmark & \checkmark \\
+Firm FE                              & \checkmark & \checkmark & \checkmark & \checkmark \\
+Quarter FE                           & \checkmark & \checkmark &  &  \\
+Industry $\times$ quarter FE         &      &      & \checkmark & \checkmark \\
+Sample                               & Full & Full & Full & Multi-bank \\
+Observations                         & \tbd & \tbd & \tbd & \tbd \\
+$R^2$                                & \tbd & \tbd & \tbd & \tbd \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \TBDNOTE\ Standard errors clustered by firm in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\caption{State-bank attachment and capital expenditure (full study)}
+\label{tab:capex}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Dep.\ var.: Capex / lagged assets (\%) & (1) & (2) & (3) & (4) \\
+\midrule
+PSB $\times$ Post                    & \tbd & \tbd & \tbd & \tbd \\
+                                     & \tbd & \tbd & \tbd & \tbd \\
+Controls                             &      & \checkmark & \checkmark & \checkmark \\
+Firm FE                              & \checkmark & \checkmark & \checkmark & \checkmark \\
+Quarter FE                           & \checkmark & \checkmark &  &  \\
+Industry $\times$ quarter FE         &      &      & \checkmark & \checkmark \\
+Sample                               & Full & Full & Full & Multi-bank \\
+Observations                         & \tbd & \tbd & \tbd & \tbd \\
+$R^2$                                & \tbd & \tbd & \tbd & \tbd \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \TBDNOTE\ Standard errors clustered by firm in parentheses.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\caption{Triple difference: exposure gradients and constraint heterogeneity (full study)}
+\label{tab:ddd}
+\small
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{Cost of debt} & \multicolumn{2}{c}{Capex ratio} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+& (1) & (2) & (3) & (4) \\
+\midrule
+PSB $\times$ Post                                  & \tbd & \tbd & \tbd & \tbd \\
+PSB $\times$ Post $\times$ Exposure                & \tbd & \tbd & \tbd & \tbd \\
+Post $\times$ Exposure                             & \tbd & \tbd & \tbd & \tbd \\
+Constraint split                                   & None & High EFD & None & Small \\
+Firm, industry $\times$ quarter FE, controls       & \checkmark & \checkmark & \checkmark & \checkmark \\
+Observations                                       & \tbd & \tbd & \tbd & \tbd \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \TBDNOTE\ EFD: external finance dependence \citep{rajan1998}.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{threeparttable}
+\caption{Who receives the cushion? Interest-coverage splits and efficiency tests (full study)}
+\label{tab:zombie}
+\small
+\begin{tabular}{lcccc}
+\toprule
+& \multicolumn{2}{c}{Cost of debt} & Borrowing growth & Inv.--CF sens. \\
+\cmidrule(lr){2-3}
+& ICR $\geq 1$ & ICR $<1$ & ICR $<1$ share & $\Delta$ post \\
+\midrule
+PSB $\times$ Post              & \tbd & \tbd & \tbd & \tbd \\
+                               & \tbd & \tbd & \tbd & \tbd \\
+Observations                   & \tbd & \tbd & \tbd & \tbd \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}\footnotesize
+\item \TBDNOTE\ Column (3): share of post-shock PSB-client borrowing growth accruing to
+pre-shock ICR $<1$ firms. Column (4): change in investment--cash-flow sensitivity
+\citep{fazzari1988} for PSB-attached firms post-shock.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
 
 \end{document}
