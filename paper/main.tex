@@ -146,8 +146,10 @@ historical one.
 
 Identification follows the logic of the Japanese study, adapted to Indian data realities.
 India has no public loan registry, so our treatment is the \emph{identity of a firm's
-bankers}: CMIE Prowess lists the banks with which each firm maintains relationships, and
-since the 2020 consolidation India has exactly twelve public sector banks, making the
+bankers}. In the public-data pilot we measure it from annual-report banker lists and,
+amount-weighted, from the bank-lender annexures of CRISIL rating rationales; in the
+pre-specified full study it comes from the banker field of CMIE Prowess. Either way, since
+the 2020 consolidation India has exactly twelve public sector banks, making the
 classification of each relationship unambiguous. A firm is PSB-attached if the majority of
 its bankers, measured \emph{before} October 2025, are state-owned; freezing the treatment
 pre-shock ensures that crisis-driven switching cannot contaminate it. Outcomes are the cost
@@ -373,8 +375,10 @@ of sign.
 
 \subsection{Sample}
 
-Firm-level data are from the CMIE Prowess database, the standard source for Indian
-corporate research. The sample is all NSE/BSE-listed non-financial, non-utility firms with
+This section and the next pre-specify the \emph{full study}; the public-data pilot that
+implements a reduced version of this design is described, with its own data sources, in
+Section~\ref{sec:pilot}. Firm-level data for the full study are from the CMIE Prowess
+database, the standard source for Indian corporate research. The sample is all NSE/BSE-listed non-financial, non-utility firms with
 consolidated or standalone financials available for FY2019--FY2027, excluding (i) banks and
 other financial firms (NIC 64--66), and (ii) \emph{government-owned enterprises}: because
 the treatment is state ownership of the \emph{bank}, state ownership of the \emph{firm}
@@ -539,7 +543,7 @@ absorbed by time effects. Differential \emph{pass-through} of policy rates by ba
 ownership loads on $\beta$ --- and is, we argue, part of what a state-banking relationship
 \emph{is} in a crisis, to be reported as such rather than netted out.
 
-\emph{Targeted fiscal support.} The ATF corpus, export-credit subvention, and guarantee
+\emph{Targeted fiscal support.} The ATF stabilization fund, export-credit subvention, and guarantee
 schemes are sector- or size-targeted and absorbed by industry$\times$quarter effects; the
 export subvention is additionally examined via an exporter interaction.
 
@@ -879,8 +883,9 @@ $R^2$                                & \tbd & \tbd & \tbd & \tbd \\
 
 \subsection{Full study --- investment (H2)}
 
-Table~\ref{tab:capex} repeats the design for the capex ratio; Figure~1 (event study,
-equations~\eqref{eq:es}) plots the quarterly coefficients for both outcomes.
+Table~\ref{tab:capex} repeats the design for the capex ratio; an event-study figure
+estimated from equation~\eqref{eq:es} will accompany it, plotting the quarterly
+coefficients for both outcomes.
 
 \begin{table}[t]
 \centering
@@ -986,14 +991,24 @@ can function as shock absorbers rather than patronage machines
 dated twice over, unevenly felt in proportion to a pre-measurable firm characteristic, and
 arriving in an economy with a genuine two-system split between state and private banking
 relationships --- offers the natural second act, in the very economy where the normal-times value of
-government-bank relationships is already established \citep{srinivasan2017}. This draft
-has set out the institutional record, the data design, and a pre-specified identification
-strategy whose central estimate, the triple-difference coefficient $\gamma$, is protected
-against the confounders a contemporary policy environment supplies. The next version will
-report the estimates. Whatever their sign, the allocation test carries the interpretation:
-a cushion for viable constrained firms would extend the bright side of state banking to a
-second country and a second century; a cushion for firms that cannot pay their interest
-would show that the same aggregate insurance can be written on very different terms.
+government-bank relationships is already established \citep{srinivasan2017}.
+
+This paper has done three things. It has shown that corporate--bank relationships in India
+can be measured, amount-weighted, from a public source --- the bank-lender annexures of
+CRISIL rating rationales --- without proprietary data. It has implemented the crisis test
+on that public foundation: across 74 listed firms, the effective cost of debt of
+state-bank-attached firms rose by about 0.6--1.1 percentage points less than that of
+private-bank firms after the shock, a cushion that appears only post-shock, survives exact
+randomization inference for the amount-weighted treatment ($p=0.047$), vanishes at placebo
+dates, and --- in a partial allocation test --- accrues to financially stronger rather than
+weaker borrowers, the same ``bright side'' pattern the Japanese evidence found. And it has
+pre-specified the full CMIE Prowess design --- firm-level exposure, the true ICR~$<1$
+zombie margin, thousands of firms including the genuinely constrained ones --- that the
+public pilot is powered only to point toward. Whatever the full study finds, the allocation
+test carries the interpretation: a cushion for viable constrained firms would extend the
+bright side of state banking to a second country and a second century; a cushion for firms
+that cannot pay their interest would show that the same aggregate insurance can be written
+on very different terms.
 
 \newpage
 \bibliography{references}
@@ -1025,7 +1040,7 @@ The full string-matching table ships with the replication package.
 (October 22, 2025); CREA monthly analyses of Russian fossil-fuel exports and sanctions
 (January--May 2026) for import volumes and Urals pricing; contemporaneous market reporting
 for VLCC rates, war-risk premia, Brent monthly averages, and the INR/USD path; Government
-of India press releases for the ATF stabilization corpus and Export Promotion Mission;
+of India press releases for the ATF price-stabilization fund and Export Promotion Mission;
 Reserve Bank of India for the policy-rate path and banking aggregates. A dated source list
 is maintained in the replication package.
 
